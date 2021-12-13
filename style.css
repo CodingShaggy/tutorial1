@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    
+}
+.container{
+    width: 90%;
+    /*background-color: gray; */
+    display: flex;
+align-items: center;
+justify-content: space-between;
+   
+}
+.logo{
+    height: 70px;
+    width: 15%;
+    /*background-color: greenyellow; */
+    font-size: 35px;
+    font-family: Segoe UI;
+    text-align: center;
+    font-weight: bold;
+    line-height: 70px;
+    color: white;
+}
+
+.nav{
+    height: 70px;
+    width: 35%;
+    /*background-color: greenyellow; */
+    display: flex;
+
+
+}
+
+.nav-item{
+width: 25%;
+height: 70px;
+/*background-color: grey; */
+font-size: 15px;
+font-family: Segoe UI;
+text-align: center;
+line-height: 70px;
+color: white;
+cursor: pointer;
+transition: 1s ease;
+
+
+}
+
+.nav-item:hover{
+    
+   background-color: white; 
+    color: lightseagreen;
+    font-size: 18px;
+    font-weight: bolder;
+    }
+
+    .banner{
+        height: 500px;
+        width: 100%;
+        background-color: teal;
+        background-image: url(images/banner.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .overlay{
+        height: 300px;
+        width: 50%;
+        background-color: rgba(0, 0,0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .bannertext{
+        color: white;
+        font-size: 20px;
+        font-family: Segoe UI;
+        padding: 15px 25px;
+
+    }
+
+    .h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .btn{
+        padding: 10px 15px;
+        background-color: white;
+        font-size: 15px;
+        font-family: Segoe UI;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 40%;
+        transition: 2s;
+        cursor: pointer;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+    .btn:hover{
+        
+        background-color: black;
+        color: white;
+        padding: 10px 25px;  
+    }
+    .services{
+        width: 100%;
+        padding-bottom: 20px;
+        background-color: lightseagreen;
+        font-family: Segoe UI;
+        
+    }
+
+    h1{
+        text-align: center;
+        background-color: lightseagreen;
+        color: white;
+    }
+
+    .services-container{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        background-color: lightseagreen;
+        font-family: Segoe UI;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .service{
+        height: 200px;
+        width: 400px;
+        background-color: white;
+        margin: 30px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .service-img{
+        height: 150px;
+        width: 150px;
+        background-color: white;
+        background-image: url(images/colorpicker-removebg-preview.png);
+        background-size: cover;
+    }
+    .service-description{
+        height: 200px;
+        width: 150px;
+        font-family: Segoe UI;
+        padding: 10px 10px;
+        margin-top: 50px;
+        align-items: center;
+        font-size: 15px;    
+    }
+
+    h5{
+        font-size: 20px;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+    
+    .btn1{
+        padding: 10px 15px;
+        background-color: burlywood;
+        font-size: 15px;
+        font-family: Segoe UI;
+        cursor: pointer;
+        border: 2px solid white;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+
+    .btn1:hover{
+        
+        background-color: black;
+        color: white;
+        padding: 10px 25px;  
+    }
+
+    .service-img1{
+        height: 120px;
+        width: 120px;
+        background-image: url(images/icon.png);
+        background-size: cover; 
+        background-position: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .service-img2{
+        height: 120px;
+        width: 120px;
+        background-image: url(images/mrntor.png);
+        background-size: cover; 
+        background-position: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .service-img3{
+        height: 120px;
+        width: 120px;
+        background-image: url(images/art.png);
+        background-size: cover; 
+        background-position: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .service-img4{
+        height: 120px;
+        width: 120px;
+        background-image: url(images/time.png);
+        background-size: cover; 
+        background-position: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Aboutus{
+        padding: 10px 20px 10px 20px;
+        font-size: 18px;
+        font-family: Segoe UI;
+        background-color:#EDF6E5;
+
+    }
+    .btn{
+        padding: 10px 15px;
+        background-color:gray;
+        font-size: 15px;
+        font-family: Segoe UI;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 43%;
+        transition: 0.5s;
+        cursor: pointer;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+
+.Join{
+    background-color: lightseagreen;
+    font-family: Segoe UI;
+    padding: 10px 15px;
+
+}
+
+.footer{
+    height: 100px;
+    background-color: teal;
+    }
+
+.CP{
+    text-align: right;
+    color: white;
+    bottom: 0;
+}
+.parent{
+    background-color: #EDF6E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.child{
+    padding: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: lightseagreen;
+    opacity: 0.8;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.p1{
+    color: linen;
+    font-family: Segoe UI;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   
+}
+
+.foot{
+    height: 100px;
+    width: 25%;
+    /*background-color: lightseagreen ;*/
+    justify-content: center;
+align-items: center;
+color: linen;
+font-family: Segoe UI;
+    font-size: 16px;
+    padding: 20px 20px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon1{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    background-image: url(images/fb.png);
+    border-radius: 10px;
+    background-position: center;
+    align-items: center;
+    background-size: cover;
+    transition: transfom 0.2s ease;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    background-image: url(images/insta.png);
+    border-radius: 10px;
+    align-items: center;
+    background-size: cover;
+    transition: transfom 0.2s ease;
+}
+
+.icon3{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    background-image: url(images/linkedin.png);
+    border-radius: 10px;
+    align-items: center;
+    background-size: cover;
+    transition: transfom 0.2s ease;
+}
+.icon4{
+    width: 40px;
+    height: 40px;
+    background-color:white;
+    background-image: url(images/twitter.png);
+    border-radius: 10px;
+    align-items: center;
+    background-size: cover;
+    transition: transfom 0.2s ease;
+}
+
+
+
+.icon1:hover{
+    width: 42px;
+    height: 42px;
+    background-color:rgb(29, 104, 216);
+    transform: translatey(-5px);
+}
+.icon2:hover{
+    width: 42px;
+    height: 42px;
+    background-color:purple;
+    transform: translatey(-5px);
+}
+.icon3:hover{
+    width: 42px;
+    height: 42px;
+    background-color:rgb(0, 68, 255);
+    transform: translatey(-5px);
+}
+.icon4:hover{
+    width: 42px;
+    height: 42px;
+    background-color:rgb(0, 183, 255);
+    transform: translatey(-5px);
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
